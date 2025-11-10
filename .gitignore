@@ -1,2 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 .venv/
-models/
+venv/
+ENV/
+env/
+privacy-masking/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and databases
+*.log
+audit.log
+*.sqlite
+*.db
+
+# Test outputs and temporary files
+test_*/
+docker_output*/
+cleanup_test/
+output/
+*.decrypted.md
+key.txt
+test_results.md
+
+# PDF test files (keep only if needed for demo)
+*.pdf
+!README.pdf
+
+# Generated MD files from processing
+leasing_agreement/
+payment_elections/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Secrets and keys
+.env
+*.key
+secrets/
+
+# Docker
+docker_output/
+
+# Notes
+Notes.txt
